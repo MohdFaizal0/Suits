@@ -1,0 +1,11 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@font-face {
+  font-family: "Roobert-Regular";
+  src: url(./assets/font/Roobert-Regular.otf);
+}
+
+body {
+  font-family: "Roobert-Regular", sans-serif;
+  color: rgba(0, 0, 0, 0.671);
+}

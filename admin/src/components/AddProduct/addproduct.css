@@ -1,0 +1,17 @@
+.left-container {
+  width: 65%;
+}
+
+.right-container {
+  width: 35%;
+  margin-top: 66px;
+}
+
+.hero {
+  background-color: #f5f4fe;
+  width: 100%;
+}
+
+.in-container {
+  background-color: #f5f4fe;
+}

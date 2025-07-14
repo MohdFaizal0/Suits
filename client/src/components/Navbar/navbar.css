@@ -1,0 +1,38 @@
+.drop-down {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+  border-top: 1px solid #ddd;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(-10px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav-item:hover .drop-down {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  color: currentColor;
+  transition: transform 0.3 ease;
+}
+ul li a:hover {
+  color: rgba(0, 0, 0, 0.842);
+  text-decoration: underline;
+}
+
+.icon:hover {
+  transform: scale(1.04);
+}
