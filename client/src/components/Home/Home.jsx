@@ -19,7 +19,7 @@ import fabric from "../../assets/home/fabric.jpg";
 import wardrobe from "../../assets/home/wardrobe.webp";
 import customer from "../../assets/home/customer.webp";
 import weddingSuits from "../../assets/home/weddingSuits.webp";
-import lookBook from "../../assets/home/lookbook.webp";
+import lookBook from "../../assets/home/Lookbook.webp";
 
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 import "./home.css";
